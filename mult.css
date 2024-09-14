@@ -1,0 +1,26 @@
+body{
+    background-color: aqua;
+}
+option{
+ font-size: 20px;
+}
+.h3head{
+    text-align: center;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+}
+.container-form{
+    padding-top: 10%;
+    margin:auto;
+    text-align: center;
+}
+#results{
+    text-align: center;
+}
+option{
+    text-align: center;
+}
+.cup{
+    font-size: 18px;
+}
