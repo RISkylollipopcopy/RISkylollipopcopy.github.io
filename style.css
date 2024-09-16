@@ -98,16 +98,21 @@ h2{
 #contact{
     text-align: center;
 }
-#contact li{
-	display: inline-block;
-	margin-right: 20px;
-	list-style: none;
-}
 #contact a{
 font-size: 20px;
 text-decoration: underline;
 text-transform: uppercase;
 color: aliceblue;
+}
+
+#contact li{
+ display: inline-block;
+ margin-right: 20px;
+ list-style: none;
+}
+#contact li a{
+    text-decoration: underline;
+    text-decoration: sandybrown;
 }
 .row {
 	width: 100%;
