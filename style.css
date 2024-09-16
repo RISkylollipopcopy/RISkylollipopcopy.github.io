@@ -98,9 +98,14 @@ h2{
 #contact{
     text-align: center;
 }
+#contact li{
+	display: inline-block;
+	margin-right: 20px;
+	list-style: none;
+}
 #contact a{
 font-size: 20px;
-text-decoration: none;
+text-decoration: underline;
 text-transform: uppercase;
 color: aliceblue;
 }
