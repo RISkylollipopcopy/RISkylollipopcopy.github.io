@@ -308,6 +308,80 @@ border-radius: 20px;
 	margin-top: 10px;
 }
 
+/* section for appontment  */
+
+
+.sect4apoint{
+	background-color: white;
+	padding-left: 10%;
+	padding-right: 10%;
+
+}
+.sect4apoint h3{
+	width: fit-content;
+	box-sizing: border-box;
+	border: 3px solid lightblue;
+	border-radius: 20px;
+	padding: 5px 15px;
+}
+.sect4apoint h1{
+	font-size: 30px;
+}
+.mailus,.callus{
+	background-color: rgb(180, 207, 232);
+	min-height: 140px;
+}
+.sect4apoint ul {
+	padding-top: 5%;
+	display: block;
+}
+.sect4apoint ul li{
+	list-style: none;
+	display: inline-block;
+}
+.uni{
+	background-color: white;
+	padding: 10px;
+	font-size: 30px;
+	border-radius: 50px;
+}
+
+.sectform{
+	padding-top: 5%;
+	padding-left: 10%;
+	background-color: white
+}
+form{
+	background-color: aliceblue;
+	width: fit-content;
+	padding-left: 5cqh;
+	padding-top: 5%;
+	border-radius: 10px;
+}
+.sectform input{
+	text-align: center;
+	height: 35px;
+	font-size: 20px;
+	width: 42%;
+	margin: 5px;
+	margin-bottom: 10px;
+	border: 3px solid lightblue;
+	border-radius: 10px;
+}
+.btnlg{
+	margin-top: 10px;
+	width: 90%;
+	font-size: 20px;
+	height: 60px;
+	color: white;
+	background-color: rgb(157, 157, 244);
+	border-radius: 15px;
+}
+textarea{
+	font-size: 20px;
+}
+
+
 
 
 
@@ -511,6 +585,8 @@ row::after {
 		margin-left: 0;
 		margin-top: 10px;
 	}
+
+
 	[class*="col-lg-2"]{
 		border: none;
 	}
@@ -518,7 +594,7 @@ row::after {
 		display: inline-block;
 	}
 	.section-light{
-		margin-top: 30%;
+		margin-top: 0;
 	}
 
 	.card1{
@@ -531,7 +607,23 @@ row::after {
 		margin-top: 20px;
 		transition: none;
 	}
-
+	.sectform{
+		width: 90%;
+		padding: 0;
+		margin: 20px;
+	}
+	.sectform form{
+		width: 100%;
+		margin-top: 5%;
+		padding-left: 0;
+		padding-right: 0;
+	}
+	.btnlg{
+		width: 90%;
+	}
+	textarea{
+		font-size: 17px;
+	}
 	[class*="col"] {
 		width: 100%;
 	}
@@ -639,7 +731,7 @@ row::after {
 		display: inline-block;
 	}
 	.section-light{
-		margin-top: 30%;
+		margin-top: -35%;
 	}
 
 	.card1{
@@ -651,6 +743,19 @@ row::after {
 		height: fit-content;
 		margin-top: 20px;
 		transition: none;
+	}
+	textarea{
+		display: block;
+		font-size: 15px;
+		width: 90%;
+		margin: auto;
+		margin-top: 5px;
+	}
+
+	.btnlg{
+		width: 90%;
+		display: block;
+		margin: auto;
 	}
 
 	[class*="col"] {
