@@ -78,7 +78,8 @@ header {
 .sect2bg h2 {
 	display: block;
 	position: absolute;
-	top: 60%;
+	top: 90%;
+	
 	font-size: 70px;
 	color: white;
 	right: 20%;
@@ -115,7 +116,7 @@ header {
 }
 .aboutus {
 	margin-left: 15%;
-	line-height: 1.8rem;
+	line-height: 2rem;
 }
 .aboutus h1 {
 	font-size: 40px;
@@ -159,6 +160,7 @@ p {
 .services h1 {
 	text-align: center;
 	font-size: 40px;
+	line-height: 2rem;
 }
 .card {
 	background-color: aliceblue;
@@ -227,6 +229,7 @@ p {
 }
 .bgblue h1{
     font-size: 40px;
+	line-height: 2rem;
 }
 
 .bgblue ul li{
@@ -301,6 +304,7 @@ border-radius: 20px;
 .sect4 h1{
 	text-align: center;
 	font-size: 50px;
+	line-height: 2rem;
 }
 
 .doctor h2{
@@ -326,6 +330,7 @@ border-radius: 20px;
 }
 .sect4apoint h1{
 	font-size: 30px;
+	line-height: 2rem;
 }
 .mailus,.callus{
 	background-color: rgb(180, 207, 232);
@@ -380,9 +385,42 @@ form{
 textarea{
 	font-size: 20px;
 }
+footer{
+	background-color: black;
+	color: white;
+	padding-left: 5%;
+}
+footer ul li{
+	
+	list-style: none;
+	line-height: 2.3rem;
+}
+footer ul li a{
+	color: white;
+}
+footer ul.line li{
+	display: inline-block;
+	list-style: none;
+	margin-right: 10px;
 
-
-
+}
+footer ul.line li ul li{
+	margin-right: 10px;
+}
+footer input{
+	height: 50px;
+	font-size: 15px;
+}
+footer button{
+	height: 30px;
+	background-color: rgb(156, 156, 230);
+	border-radius: 10px;
+	padding: 0 10px;
+	position: absolute;
+	text-transform: uppercase;
+	right: 34.7%;
+	margin-top: 13px;
+}
 
 
 
@@ -624,6 +662,9 @@ row::after {
 	textarea{
 		font-size: 17px;
 	}
+	footer button {
+		right: 57.7%;
+	}
 	[class*="col"] {
 		width: 100%;
 	}
@@ -756,6 +797,9 @@ row::after {
 		width: 90%;
 		display: block;
 		margin: auto;
+	}
+	footer button {
+		right: 39.4%;
 	}
 
 	[class*="col"] {
