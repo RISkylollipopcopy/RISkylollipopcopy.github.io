@@ -51,8 +51,8 @@ else if (cals == "-") {
     event.preventDefault();
 
 } else if (cals == "*") {
-    A = parseFloat(luck1.value); //parseFloat to convert the string input to number
-    B = parseFloat(luck2.value); //parseFloat to convert the string input to number
+    A = parseFloat(luck1.value); //parseFloat to convert the string input to Decimal/ Number
+    B = parseFloat(luck2.value); //parseFloat to convert the string input to number/ Decimal
     var result = A*B;
     results.innerHTML = (`Answer
         
