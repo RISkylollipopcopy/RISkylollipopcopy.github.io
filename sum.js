@@ -65,12 +65,12 @@ else if (cals == "-") {
     event.preventDefault();
 
 } else if (cals == "/") {
-    A = Number(luck1.value); //Number to convert the string input to number also... 
-    B = Number(luck2.value); // works as Parsefloat
+    A = parseFloat(luck1.value); //Number to convert the string input to number also... 
+    B = parseFloat(luck2.value); // works as Parsefloat
     var result = A/B;
     results.innerText = (`Answer:
         
-        ${A} / ${B} = ${Number(result).toFixed(4)}
+        ${A} / ${B} = ${parseFloat(result).toFixed(4)}
         
          Hope You Understand?`);
     
